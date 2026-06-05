@@ -1,10 +1,10 @@
 ## Sistem Manajemen Tugas Harian
 **Tugas Besar Pemrograman Web**
 
-**Deskripsi**
+## Deskripsi
 Aplikasi web dinamis berbasis PHP untuk mengelola tugas harian, dilengkapi sistem login, manajemen pengguna, dan fitur CRUD lengkap.
 
-**Fitur Utama**
+## Fitur Utama
 - Login & Logout dengan session
 - Role: Admin & User
 - CRUD Tugas (Create, Read, Update, Delete)
@@ -14,15 +14,15 @@ Aplikasi web dinamis berbasis PHP untuk mengelola tugas harian, dilengkapi siste
 - Dashboard statistik progress
 - Validasi input & keamanan dasar
 
-**Struktur Database**
+## Struktur Database
 - users – data pengguna (id, nama, username, password, role)
 - tugas – data tugas (id, user_id, judul, deskripsi, kategori, prioritas, status, deadline)
 
-**Struktur Folder**
-taskmanager/
+## Struktur Folder
+sistem-manajemen-tugas-harian/
 ├── index.php          # Halaman login
 ├── logout.php         # Proses logout
-├── database.sql       # File database
+├── sistem_manajemen_tugas_harian.sql       # File database
 ├── css/
 │   └── style.css      # Stylesheet
 ├── includes/
@@ -40,7 +40,7 @@ taskmanager/
     ├── edit_tugas.php # Edit tugas
     └── profil.php     # Profil & ganti password
 
-**Tim Pengembang**
+## Tim Pengembang
 | Nama | NIM | Tugas |
 |------|-----|-------|
 | Dzakiyah Aniq Muflihah | 24081010254 | Full Stack (Frontend, Backend, Database) |
